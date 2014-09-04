@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Program</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+	<meta name="Robots" content="index,follow" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+	<script type="text/javascript">
+	// toggle dynamic divs
+    function toggle(div) {
+    	var elem = document.getElementById(div);
+    	if (elem.style.display=='') {elem.style.display='none'; return;}
+    	elem.style.display='';
+    }
+	</script>
+    <style type="text/css">
+<!--
+.STYLE11 {font-size: 11px;
+	color: #CCCCCC;
+}
+.STYLE12 {color: #B60D0A}
+.STYLE13 {font-size: 2em}
+.STYLE14 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+-->
+    </style>
+</head>
+<body>
+	<div id="content">	
+		<div id="header">
+			<div id="logo">
+				<h1>CloudFlow<sup>2013</sup></h1>
+				<p>Second International Workshop on Workflow Models, Systems, Services and Applications in the Cloud</p>
+				<p><span class="STYLE11">To be held in conjunction with <a href="http://www.ipdps.org/"><u>the 27th IEEE International Parallel &amp;  Distributed Processing Symposium (IPDPS) 2013</u></a>, Hyatt Regency Cambridge Boston, Massachusetts USA, May 20-24,  2013</span></p>
+			</div>
+	
+	  </div>
+		<ul id="menu">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="organization.html">Organization</a></li>
+			<li><a href="steering.html">Committee</a></li>
+			<li><a href="dates.html">Important Dates</a></li>
+			<li><a class="current" href="program.html">Program</a></li>
+            <li><a href="../home.html">CloudFlow 2014</a></li>
+		</ul>
+			<div style="clear: both;"></div>
+	  <div class="third7">
+			<h2 class="STYLE13">Keynote</h2>
+            <table width="846" border="0">
+              <tr>
+                <td width="378" height="38"><div align="center" class="STYLE14">Cloud Programming Models</div></td>
+                <td width="76">&nbsp;</td>
+                <td width="378"><div align="center"><strong class="STYLE14">Sharing, integrating and executing different workflows in heterogeneous multi-cloud systems</strong></div></td>
+              </tr>
+              <tr>
+                <td><div align="center"><img src="images/pan.jpg" alt="" width="100" height="125" /></div></td>
+                <td>&nbsp;</td>
+                <td><div align="center"><img src="images/Peter_kacsuk.jpg" alt="" width="100" height="125" /></div></td>
+              </tr>
+              <tr>
+                <td><p><strong>Yi Pan, Georgia State University</strong></p>                </td>
+                <td>&nbsp;</td>
+                <td valign="top"><strong>Peter Kacsuk, MTA-SZTAKI, Budapest, Hungary</strong></td>
+              </tr>
+              <tr>
+                <td rowspan="2" valign="top"><p>Cloud  computing has emerged rapidly as a growing paradigm of on-demand access to  computing, data and software utilities using a usage-based billing model. Users  essentially rent resources and pay for what they use and everything including  software, platform, and infrastructure is as a service. In this talk, I will  give a review of supercomputing, cluster computing, grid computing and cloud  computing. Comparisons of these computing domains and programming models, their  limitations and potential solutions will be included in this talk. In  particular, I will point out the shortcomings and limitations of current cloud  computing programming models and propose possible solutions. Current MapReduce  model and its variants have succeeded in data-parallel applications such as  database operations and web searching; however, they are still not effective  for handling complex data and task dependencies in many compute-intensive applications such as graph  applications and data analytics problems. We propose several approaches to this problem  through extension of current programming models, automatic translation from  sequential codes to cloud codes, detection of data and task parallelism and effective scheduling on cloud programming models. Some preliminary theoretical and experimental results will also be  reported in this talk. </p>                  
+                <p>&nbsp;</p>                  <p>Yi  Pan is a Distinguished University Professor and Chair of Department of Computer Science at Georgia State  University. Dr. Pan received his B.Eng. and M.Eng. degrees in computer  engineering from Tsinghua University, China, in 1982 and 1984, respectively,  and his Ph.D. degree in computer science from the University of Pittsburgh,  USA, in 1991. His profile has been featured as a distinguished alumnus in both  Tsinghua Alumni Newsletter and University of Pittsburgh CS Alumni Newsletter.  Dr. Pan's research interests include parallel and cloud computing, wireless  networks, and bioinformatics. Dr. Pan has published more than 150 journal  papers with over 50 papers published in various IEEE Transactions. In addition, he has published over 150 papers  in refereed conferences. He has also co-authored/co-edited 37 books. His work  has been cited more than 3600 times. Dr. Pan has served as an editor-in-chief or  editorial board member for 15 journals including 6 IEEE Transactions. He is the  recipient of many awards including IEEE Transactions Best Paper Award, IBM  Faculty Award, JSPS Senior Invitation Fellowship, IEEE BIBE Outstanding Achievement  Award, NSF Research Opportunity Award, and AFOSR Summer Faculty Research  Fellowship. He has organized many international conferences and delivered more  than 20 keynote speeches at various international conferences. </p></td>
+                <td>&nbsp;</td>
+                <td valign="top"><p>The results of the SHIWA and SCI-BUS projects open a new horizon for research communities who would like to use their workflows in collaboration with other workflow user communities and would like to run their workflows in heterogeneous multi-cloud systems. There is a large number of different workflow systems (ASKALON, Galaxy, Kepler, Moteur, Taverna, Triana, WS-PGRADE, etc.) widely used by different user communities. Before the SHIWA project these workflow user communities were typically isolated not able to collaborate via their workflows. The SHIWA consortium has created the SHIWA Workflow Repository to enable publish and share all these types of workflows and the SHIWA Portal and SHIWA Desktop to enable integrate them into complex meta-workflows based on the Coarse-Grained Interoperability (CGI) and Fine-Grained Interoperability (FGI) concept. The DCI Bridge developed by SHIWA enables the execution of these workflows in many different distributed computing infrastructures including grids (ARC, gLite, Globus, UNICORE), desktop grids (BOINC) and clusters (PBS, LSF, Condor). Within the SCI-BUS project DCI Bridge was extended with clouds (Amazon, Eucalyptus, IBM, OpenNebula, OpenStack) via the CloudBroker Platform. As a result there are many possibilities for workflow users to combine their workflows with other workflows and run these complex meta-workflows in heterogeneous multi-cloud systems or in hybrid grid-cloud systems. For example, a Taverna user can easily create a meta-workflow that runs a Kepler workflow as a node of the Taverna workflow and execute this meta-workflow in a hybrid cloud-grid system where the Kepler workflow runs in a Globus grid and the Taverna nodes run in OpenStack and OpenNebula clouds as web services. The talk will explain in detail those technical innovations of SHIWA and SCI-BUS that together resulted in such a flexible workflow building and execution environment.</p>                </td>
+              </tr>
+              
+              <tr>
+                <td valign="top">&nbsp;</td>
+                <td valign="top"><p align="left">&nbsp;</p>
+                  <p align="left">Péter Kacsuk received his MSc and university doctorate degrees from the Technical University of Budapest, Hungary in 1976 and 1984, respectively. He received the Kandidat degree (equivalent to PhD) from the Hungarian Academy in 1989. He habilitated at the University of Vienna in 1997. He received his professor title from the Hungarian President in 1999 and the Doctor of Academy degree (DSc) from the Hungarian Academy of Sciences in 2001. He is currently the Head of the Laboratory of Parallel and Distributed Systems (<a title="LPDS" href="/wiki/LPDS">LPDS</a>), Computer and Automation Research Institute of the Hungarian Academy of Sciences.</p>
+                  <p>&nbsp;</p>                </td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+      </div>
+		<div style="clear: both;"></div>
+	</div>
+	<div id="prefooter">
+		<p> <ul id="menu">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="organization.html">Organization</a></li>
+			<li><a href="steering.html">Committee</a></li>
+			<li><a href="dates.html">Important Dates</a></li>
+			<li><a class="current" href="program.html">Program</a></li>
+            <li><a href="../home.html">CloudFlow 2014</a></li>
+		</ul></p>
+	</div>
+	<div id="footer">
+		<p align="center">© Copyright 2011</p>
+	</div>
+</body>
+</html>

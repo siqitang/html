@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.select_box{
+	width:190px;
+	position:relative;
+	line-height:25px;
+	height:25px;
+	cursor: pointer;
+	background: #D0D4D4; 
+	margin: 0 1px 0 0;
+	color: #808080;
+}
+.select_box span{
+	cursor:pointer;
+	display:block; 
+	line-height:25px;
+	width:190px;
+	text-align:center;
+	height:25px; 
+	font-size:10pt;
+	overflow:hidden;
+}
+.select_box ul li{
+	cursor:pointer;
+}
+.select_options{
+	width:188px; 
+	position:absolute; 
+	left:0;
+	top:25px; 
+	border:1px solid #e0e0e0;
+	background:#f6f6f6;
+}
+.select_options li{
+	font-size:10pt;
+	color:#5d5d5d;
+	display:block; 
+	line-height:25px;
+	width:188px;
+	border-top:1px solid #adadad;
+}
+.hover{background:#5da3c7;}
+.option_a{
+	text-decoration:none;
+	color:#000000;
+}
