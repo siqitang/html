@@ -893,6 +893,7 @@
 		background: #282b34 url('images/overlay.png');
 		color: #eee;
 		color: rgba(255,255,255,0.5);
+		padding-top: 3em;
 	}
 
 		#footer-wrapper h1,
@@ -978,7 +979,7 @@
 			{
 				border-top-color: #333;
 				border-top-color: rgba(255,255,255,0.05);
-				margin-top: 30px;
+				/*margin-top: 30px;*/
 			}
 
 			#footer-wrapper .feature-list h3

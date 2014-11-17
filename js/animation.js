@@ -5,20 +5,22 @@
             var screenTop = $(window).scrollTop();
             var documentHeight = $(document).height();
             var windowHeight =  $(window).height();
+            
 
             if (screenTop < windowHeight - 130)
             {
-                $("#nav1").hide()
+                $("#nav1").hide();//滚动距离小于130像素时，侧导航隐藏
             }
             else
             {
-                $("#nav1").fadeOut("fast");
+                $("#nav1").fadeOut("fast");// 发生滚动时，侧导航条淡出
 
             }
 
             if(interval==null)
                 interval=setInterval("test()",1000);//这里就是判定时间，当前是1秒一判定
-            topValue=document.documentElement.scrollTop;
+            topValue=document.documentElement.scrollTop;//此值没用，恒定为0
+        
         });
 
         function test(){
@@ -27,9 +29,9 @@
             var windowHeight1 =  $(window).height();
             // console.log("1:"+ scrollTop1);
             // console.log("2:"+ windowHeight1)
-            if((document.documentElement.scrollTop==topValue) && (scrollTop1 > 500)){
+            if((document.documentElement.scrollTop==topValue) && (scrollTop1 > 500)){//此处判断只有第二项有用，第一项恒等，都为0
 
-                $("#nav1").fadeIn("fast");
+                $("#nav1").fadeIn("fast");//如果大于0，淡出。
 
                 clearInterval(interval);
                 interval=null;
